@@ -1,0 +1,30 @@
+.section4{
+    background-size: cover;
+    background-image: url("/asset/image/background-login.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 761px;
+}
+.item1_s4, .item2_s4{
+    background: #fff;
+    height: 500px;
+    width: 422px;
+    display: flex;
+    justify-content: center;
+}
+
+.image1_s4, .image2_s4{
+    height: 362px;
+    width: 382px;
+    margin-top: 26px;
+}
+
+.image2_s4{
+    background: url("/asset/image/image2_s4.png") center / cover no-repeat;
+}
+/* .item2_s4{
+    margin: 0 20px !important;
+} */
+.image1_s4{
+    background: url("/asset/image/image1_s4.png") center / cover no-repeat;
+}
