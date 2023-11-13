@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    padding: 20px;
+}
+
+button{
+    cursor: pointer;
+}
+
+input{
+    line-height: normal;
+}
+
+.image-slider{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+    align-items: center;
+}
+
+.star{
+    background: url(./asset/icon/akar-icons_star.svg) center / contain ;
+    height: 20px;
+    width: 70px;
+}
+
+.image{
+    height: 300px;
+    margin-bottom: 20px;
+}
+
+.image img{
+    width: 300px;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.image-title{
+    font-size: 20px;
+    color: blueviolet;
+}
+
+.slick-initialized .slick-slider{
+    margin: 0 10px;
+}
