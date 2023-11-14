@@ -1,6 +1,6 @@
 .section4{
     background-size: cover;
-    background-image: url("/asset/image/background-login.png");
+    background-image: url("/home/asset/image/background-login.png");
     background-repeat: no-repeat;
     background-position: center;
     height: 761px;
@@ -20,11 +20,11 @@
 }
 
 .image2_s4{
-    background: url("/asset/image/image2_s4.png") center / cover no-repeat;
+    background: url("/home/asset/image/image2_s4.png") center / cover no-repeat;
 }
 /* .item2_s4{
     margin: 0 20px !important;
 } */
 .image1_s4{
-    background: url("/asset/image/image1_s4.png") center / cover no-repeat;
+    background: url("/home/asset/image/image1_s4.png") center / cover no-repeat;
 }

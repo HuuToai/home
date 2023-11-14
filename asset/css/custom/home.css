@@ -57,19 +57,19 @@ body{
     border-top: 28px solid transparent;
     /* background: bg-color bg-image position/bg-size bg-repeat bg-origin bg-clip bg-attachment initial|inherit; */
     height: 100%;
-    background: url(/asset/image/background.png) center / cover no-repeat;
+    background: url(/home/asset/image/background.png) center / cover no-repeat;
     background-clip: border-box;
 }
 
 .cart{
-    background: url(/asset/icon/cart.svg) center / contain no-repeat;
+    background: url(/home/asset/icon/cart.svg) center / contain no-repeat;
     width: 30px;
     height: 27px;
     display: inline-block;
 
 }
 .login{
-    background: url(/asset/icon/login.svg) center / contain no-repeat;
+    background: url(/home/asset/icon/login.svg) center / contain no-repeat;
     width: 22px;
     height: 25px;
     display: inline-block;
@@ -154,7 +154,7 @@ body{
 }
 
 .image1_s2{
-    background: url(/asset/image/image1_s2.png) center / cover no-repeat;
+    background: url(/home/asset/image/image1_s2.png) center / cover no-repeat;
     height: 800px;
     width: 333px;
 }
@@ -216,7 +216,7 @@ color: #265A54;
 
 .item-1{
     grid-area: iamge1;
-    background: url(/asset/image/image1_s2.png) center / cover no-repeat;
+    background: url(/home/asset/image/image1_s2.png) center / cover no-repeat;
 }
 
 .item-2{
@@ -247,18 +247,18 @@ color: #265A54;
 .item-4{
     grid-area: iamge2;
     height: 300px;
-    background: url(/asset/image/image2_s2.png) center / cover no-repeat;
+    background: url(/home/asset/image/image2_s2.png) center / cover no-repeat;
     
 }
 
 .item-5{
     grid-area: image3;
     height: 380px;
-    background: url(/asset/image/image3_s2.png) center / cover no-repeat;
+    background: url(/home/asset/image/image3_s2.png) center / cover no-repeat;
 }
 .item-6{
     grid-area: image4;
-    background: url(/asset/image/image4_s2.png) center / cover no-repeat;
+    background: url(/home/asset/image/image4_s2.png) center / cover no-repeat;
 }
 
 h3{
@@ -333,7 +333,7 @@ h3{
     word-wrap: break-word
 }
 .call-icon{
-    background: url(/asset/icon/call-icon.svg) center / contain no-repeat;
+    background: url(/home/asset/icon/call-icon.svg) center / contain no-repeat;
     width: 25px;
     height: 25px;
     display: inline-block;
@@ -356,7 +356,7 @@ h3{
 }
 
 .mail-icon{
-    background: url(/asset/icon/mail-icon.svg) center / contain no-repeat;
+    background: url(/home/asset/icon/mail-icon.svg) center / contain no-repeat;
     width: 25px;
     height: 25px;
     display: inline-block;
@@ -377,7 +377,7 @@ h3{
 }
 
 .fb {
-    background: url(/asset/icon/fb.svg) center / contain no-repeat;
+    background: url(/home/asset/icon/fb.svg) center / contain no-repeat;
     width: 25px;
     height: 27px;
     display: inline-block;
@@ -387,7 +387,7 @@ h3{
 
 }
 .ig {
-    background: url(/asset/icon/ig.svg) center / contain no-repeat;
+    background: url(/home/asset/icon/ig.svg) center / contain no-repeat;
     width: 25px;
     height: 27px;
     display: inline-block;
@@ -397,7 +397,7 @@ h3{
 
 }
 .tiktok {
-    background: url(/asset/icon/tiktok.svg) center / contain no-repeat;
+    background: url(/home/asset/icon/tiktok.svg) center / contain no-repeat;
     width: 25px;
     height: 27px;
     display: inline-block;
@@ -407,7 +407,7 @@ h3{
 
 }
 .icon-logo{
-    background: url(/asset/icon/icon-logo.svg) center / contain no-repeat;
+    background: url(/home/asset/icon/icon-logo.svg) center / contain no-repeat;
     width: 31px;
     height: 30px;
     display: inline-block;
