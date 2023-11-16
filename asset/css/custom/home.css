@@ -54,22 +54,21 @@ body{
 
 
 .section1{
-    border-top: 28px solid transparent;
-    /* background: bg-color bg-image position/bg-size bg-repeat bg-origin bg-clip bg-attachment initial|inherit; */
+    /* border-top: 28px solid transparent; */
     height: 100%;
-    background: url(/home/asset/image/background.png) center / cover no-repeat;
+    background: url(/asset/image/background.png) center / cover no-repeat;
     background-clip: border-box;
 }
 
 .cart{
-    background: url(/home/asset/icon/cart.svg) center / contain no-repeat;
+    background: url(/asset/icon/cart.svg) center / contain no-repeat;
     width: 30px;
     height: 27px;
     display: inline-block;
 
 }
 .login{
-    background: url(/home/asset/icon/login.svg) center / contain no-repeat;
+    background: url(/asset/icon/login.svg) center / contain no-repeat;
     width: 22px;
     height: 25px;
     display: inline-block;
@@ -154,7 +153,7 @@ body{
 }
 
 .image1_s2{
-    background: url(/home/asset/image/image1_s2.png) center / cover no-repeat;
+    background: url(/asset/image/image1_s2.png) center / cover no-repeat;
     height: 800px;
     width: 333px;
 }
@@ -201,22 +200,22 @@ color: #265A54;
 }
 .container_s2{
     
-    display: grid;
-    grid-template-columns: 333px 1fr 1fr;
-    /* grid-template-rows: 300px 380px; */
-    /* grid-auto-rows: minmax(60px auto); */
-    column-gap: 20px;
-    row-gap: 20px;
-    grid-template-areas: 
-    "iamge1 title viewmore"
-    "iamge1 iamge2 iamge2"
-    "iamge1 image3 image4"
+        display: grid;
+        grid-template-columns: 333px 1fr 1fr;
+        /* grid-template-rows: 300px 380px; */
+        /* grid-auto-rows: minmax(60px auto); */
+        column-gap: 20px;
+        row-gap: 20px;
+        grid-template-areas: 
+        "iamge1 title viewmore"
+        "iamge1 iamge2 iamge2"
+        "iamge1 image3 image4"
     
 }
 
 .item-1{
     grid-area: iamge1;
-    background: url(/home/asset/image/image1_s2.png) center / cover no-repeat;
+    background: url(/asset/image/image1_s2.png) center / cover no-repeat;
 }
 
 .item-2{
@@ -247,18 +246,18 @@ color: #265A54;
 .item-4{
     grid-area: iamge2;
     height: 300px;
-    background: url(/home/asset/image/image2_s2.png) center / cover no-repeat;
+    background: url(/asset/image/image2_s2.png) center / cover no-repeat;
     
 }
 
 .item-5{
     grid-area: image3;
     height: 380px;
-    background: url(/home/asset/image/image3_s2.png) center / cover no-repeat;
+    background: url(/asset/image/image3_s2.png) center / cover no-repeat;
 }
 .item-6{
     grid-area: image4;
-    background: url(/home/asset/image/image4_s2.png) center / cover no-repeat;
+    background: url(/asset/image/image4_s2.png) center / cover no-repeat;
 }
 
 h3{
@@ -333,7 +332,7 @@ h3{
     word-wrap: break-word
 }
 .call-icon{
-    background: url(/home/asset/icon/call-icon.svg) center / contain no-repeat;
+    background: url(/asset/icon/call-icon.svg) center / contain no-repeat;
     width: 25px;
     height: 25px;
     display: inline-block;
@@ -356,7 +355,7 @@ h3{
 }
 
 .mail-icon{
-    background: url(/home/asset/icon/mail-icon.svg) center / contain no-repeat;
+    background: url(/asset/icon/mail-icon.svg) center / contain no-repeat;
     width: 25px;
     height: 25px;
     display: inline-block;
@@ -377,7 +376,7 @@ h3{
 }
 
 .fb {
-    background: url(/home/asset/icon/fb.svg) center / contain no-repeat;
+    background: url(/asset/icon/fb.svg) center / contain no-repeat;
     width: 25px;
     height: 27px;
     display: inline-block;
@@ -387,7 +386,7 @@ h3{
 
 }
 .ig {
-    background: url(/home/asset/icon/ig.svg) center / contain no-repeat;
+    background: url(/asset/icon/ig.svg) center / contain no-repeat;
     width: 25px;
     height: 27px;
     display: inline-block;
@@ -397,7 +396,7 @@ h3{
 
 }
 .tiktok {
-    background: url(/home/asset/icon/tiktok.svg) center / contain no-repeat;
+    background: url(/asset/icon/tiktok.svg) center / contain no-repeat;
     width: 25px;
     height: 27px;
     display: inline-block;
@@ -407,7 +406,7 @@ h3{
 
 }
 .icon-logo{
-    background: url(/home/asset/icon/icon-logo.svg) center / contain no-repeat;
+    background: url(/asset/icon/icon-logo.svg) center / contain no-repeat;
     width: 31px;
     height: 30px;
     display: inline-block;
@@ -462,3 +461,19 @@ h3{
 .item-6{
     margin-top: -169px;
 } */
+
+
+/* #container{
+    position: relative;
+    z-index: 1111;
+}
+
+.back-header{
+    position: relative;
+    z-index: 1;
+} */
+
+.back-header{
+    background: linear-gradient(180deg, rgba(38, 90, 84, 0.80) 26.33%, rgba(38, 90, 84, 0.00) 79.23%);
+    padding-top: 28px;
+}
